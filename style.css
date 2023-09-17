@@ -50,7 +50,7 @@ nav ul li a:hover{
 /*  Banner Section Css Start  */
 
 #banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(./img/banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(banner.jpg);
     background-size: cover;
     padding: 200px 0;
 }

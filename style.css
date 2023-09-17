@@ -1,0 +1,90 @@
+style.css
+/*  Common Css Start  */
+* {
+    width: 1500px;
+    margin:  0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+/*  Common Css End  */
+
+/*  Nav Section Css Start  */
+nav{
+    background-color: #02918b;
+}
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    font-size: 12px ;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 19px 25px;
+    display: inline-block;
+    transition: .5s;
+}
+nav ul li a:hover{
+    color: #cfc91d;
+}
+/*  Nav Section Css End  */
+
+/*  Banner Section Css Start  */
+
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(./img/banner.jpg);
+    background-size: cover;
+    padding: 200px 0;
+}
+
+#banner .container{
+    text-align: center;
+    color: #ffffff;
+}
+
+#banner .container h1{
+    line-height: 5px;
+    font-size: 50px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+
+.image-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-button a{
+    margin: 25px;
+    font-weight: bold;
+    color: black;
+    background-color: #cfc91d;
+    padding: 14px 42px;
+    text-transform: uppercase;
+}
+
+a:hover{
+   color: #02918b;
+}
+
+/*  Banner Section Css End  */
